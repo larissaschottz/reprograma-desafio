@@ -70,14 +70,14 @@
                     <label for="email" id="emailLabel">
                         <span>E-mail <abbr title="Obrigatório">*</abbr></span>
                          <!-- O input coleta a entrada de dado do usuário -->
-                        <input type="email" id="email" placeholder="Digite seu e-mail">
+                        <input type="email" id="email" placeholder="Digite seu e-mail" required>
                     </label>
                     <!-- Cada campo fica dentro de uma label -->
                     <label for="passwd" id="passwdLabel">
                         <span>Senha <abbr title="Obrigatório">*</abbr></span>
-                        <input type="password" id="passwd" placeholder="Digite sua senha">
+                        <input type="password" id="passwd" placeholder="Digite sua senha" required>
                     </label>
-                    <button onclick="continuar()" type="submit">Continuar</button>
+                    <button onclick="validar()">Continuar</button>
                 </fieldset>
                 <a href="cadastro.html" class="link-cadastro" id="linkCadas">Não possui cadastro?</a>
             </form>
