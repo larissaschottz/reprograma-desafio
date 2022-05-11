@@ -67,17 +67,17 @@
                     </legend>
                     <!-- A tag <label> serve para colocar um texto junto do campo do form
                     O for indica sobre qual elemento input é o texto na tela -->
-                    <label for="email">
+                    <label for="email" id="emailLabel">
                         <span>E-mail <abbr title="Obrigatório">*</abbr></span>
                          <!-- O input coleta a entrada de dado do usuário -->
                         <input type="email" id="email" placeholder="Digite seu e-mail">
                     </label>
                     <!-- Cada campo fica dentro de uma label -->
-                    <label for="passwd">
+                    <label for="passwd" id="passwdLabel">
                         <span>Senha <abbr title="Obrigatório">*</abbr></span>
                         <input type="password" id="passwd" placeholder="Digite sua senha">
                     </label>
-                    <button onclick="entrar()" type="submit">Continuar</button>
+                    <button onclick="continuar()" type="submit">Continuar</button>
                 </fieldset>
                 <a href="cadastro.html" class="link-cadastro" id="linkCadas">Não possui cadastro?</a>
             </form>

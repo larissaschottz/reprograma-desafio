@@ -63,27 +63,23 @@
             <form id="form" onsubmit="ValidateForm(event);">
                 <fieldset>
                     <legend>
-                        Continue para acessar informações do RePrograma e não perder as próximas edições.
+                        Cadastre-se para acessar informações do RePrograma e não perder as próximas edições.
                     </legend>
                     <!-- A tag <label> serve para colocar um texto junto do campo do form
                     O for indica sobre qual elemento input é o texto na tela -->
-                    <label for="email">
+                    <label id="Labelemail" for="email">
                         <span>E-mail <abbr title="Obrigatório">*</abbr></span>
                          <!-- O input coleta a entrada de dado do usuário -->
-                        <input type="email" id="email" placeholder="Digite seu e-mail">
+                        <input type="email" id="email" placeholder="Digite seu e-mail" required>
                     </label>
-                    <label for="login">
+                    <label id="Labellogin" for="login">
                         <span>Login usuário <abbr title="Obrigatório">*</abbr> </span>
-                        <input type="text" id="login" placeholder="Criar um nome de usuário">
-                    </label>
-                    <label for="idade">
-                        <span>Idade <abbr title="Obrigatório">*</abbr></span>
-                        <input type="date" name="idade" class="idade" id="idade">
+                        <input type="text" id="login" placeholder="Criar um nome de usuário" required>
                     </label>
                     <!-- Cada campo fica dentro de uma label -->
-                    <label for="passwd">
+                    <label id="Labelpasswd" for="passwd">
                         <span>Senha <abbr title="Obrigatório">*</abbr></span>
-                        <input type="password" id="passwd" placeholder="Digite sua senha">
+                        <input type="password" id="passwd" placeholder="Digite sua senha" required>
                     </label>
                     <button onclick="cadastrar()" type="submit">Cadastrar</button>
                 </fieldset>
@@ -98,7 +94,7 @@
         <p>© Copyright Paraná Banco 2022</p>
     </footer>
 
-    <script src="src/js/script.js"></script>
+    <script src="src/js/cadastro.js"></script>
 </body>
 
 </html>

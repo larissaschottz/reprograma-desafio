@@ -35,6 +35,6 @@ function ValidateForm() {
     */
 }
 
-function cadastrar() {
-    alert('Botão clicado');
+function continuar() {
+    let email = document.querySelector('#email')
 }
