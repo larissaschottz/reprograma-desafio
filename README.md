@@ -3,7 +3,7 @@
 
 Projeto desenvolvido durante as semanas do BootCamp. Desafio: desenvolver JavaScript da Landing Page do PB.<br>
 Layout do projeto: <a href="https://www.figma.com/file/pzyVylrT5t6IYHbBaxU64o/RePrograma-Trilha-Front-end?node-id=0%3A394">link</a><br>
-Repositório clonado de: <a href="https://github.com/annelesinhovski/reprograma-inicial>link</a><br>
+Repositório clonado de: <a href="https://github.com/annelesinhovski/reprograma-inicial">link</a><br>
 
 Tecnologias desenvolvidas:
 
